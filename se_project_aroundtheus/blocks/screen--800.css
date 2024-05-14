@@ -1,0 +1,8 @@
+@media screen and (max-width: 800px) {
+  .page {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0 25px 0 25px;
+  }
+}
