@@ -1,0 +1,14 @@
+.footer__text {
+  width: 318px;
+  height: 18px;
+  margin: 45px 0 45px 0;
+  color: #545454;
+}
+
+@media screen and (max-width: 330px) {
+  .footer__text {
+    width: 282px;
+    height: 14px;
+    color: #545454;
+  }
+}
