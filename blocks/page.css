@@ -1,0 +1,25 @@
+.page {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .page {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .page {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .page {
+    margin: 0;
+  }
+}
