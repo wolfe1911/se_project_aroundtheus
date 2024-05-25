@@ -1,0 +1,12 @@
+.page {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (min-width: 900px) {
+  .page {
+    display: flex;
+    justify-content: center;
+  }
+}
