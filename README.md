@@ -27,3 +27,5 @@ CSS, styles HTML elements, making them look good and fit well on the page. It co
     11.Footer (<footer>): Typically contains copyright information, contact details, or links to other pages. Includes an image (<img>) with a class of "footer__img".
 
 https://wolfe1911.github.io/se_project_aroundtheus/
+
+https://drive.google.com/file/d/1buQwhLyl4Hiwda9RmYk05gMTU_P_smHI/view?usp=sharing
