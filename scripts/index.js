@@ -1,6 +1,6 @@
 const initialCards = [
   {
-   name: "Yosemite Valley",
+    name: "Yosemite Valley",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/yosemite.jpg",
   },
   {
@@ -26,3 +26,18 @@ const initialCards = [
 ];
 
 console.log(initialCards);
+
+const profileEditButton = document.querySelector("#profile-edit-button");
+const profileEditModal = document.querySelector("#profile-edit-modal");
+const closeModalButton = profileEditModal.querySelector(
+  "#profile-edit-modal-close"
+);
+
+profileEditButton.addEventListener("click", () => {
+  profileEditModal.classList.add("modal__opened");
+});
+
+closeModalButton.addEventListener("click", () => {
+  profileEditModal.classList.remove("modal__opened");
+});
+
